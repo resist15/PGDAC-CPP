@@ -14,6 +14,11 @@ int main(){
 	int n;
 	cout<<"Enter the number to find factorial"<<endl;
 	cin >> n;
-	cout<<"Factorial of number is: "<<factorial(n)<<endl;
+	
+	for(int i=1;i<=n;i++){
+
+		cout<<factorial(i)<<" ";
+	
+	}
 	return 0;
 }

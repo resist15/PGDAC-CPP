@@ -15,7 +15,7 @@ void reverseString(char str[],int n){
 }
 
 void reverseStringRecursion(char str[],int left, int right){
-	if(left >= right){
+	if(left > right){
 		return;
 	}else{
 		int temp = str[left];
@@ -28,7 +28,7 @@ void reverseStringRecursion(char str[],int left, int right){
 int main(){
 	char str[] = "sourav";
 	int n = sizeof(str)-1;
-	reverseString(str, n);
+	reverseStringRecursion(str, 0, n-1);
 	for(int i = 0; i < n;i++){
 		cout<<str[i]<<endl;
 	}
