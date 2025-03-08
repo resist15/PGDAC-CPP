@@ -30,6 +30,7 @@ void display(const Student* const arr, int num){
 		cout<< arr[i].rollno<<endl;
 		cout<<"Students age: ";
 		cout<< arr[i].age<<endl;
+		cout<<"=================="<<endl;
 	}
 }
 
