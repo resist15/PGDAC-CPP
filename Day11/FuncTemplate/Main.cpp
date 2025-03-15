@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 { 
-	double p=10.20, k=20.10;
+	double p=10.20, k=0.10;
 	Swap(p,k);
 	cout<<"\nSwapped double variables"<<p<<" "<<k;
-	int a=10, b=20;
+	int a=10, b=0;
 	Swap(a,b);
 	cout<<"\nSwapped int variables"<<a<<" "<<b;
 	cout<<"Addition of double: "<<Add(p, k)<<endl;

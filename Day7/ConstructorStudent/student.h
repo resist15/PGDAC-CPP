@@ -9,7 +9,7 @@ class Student{
 	
 	Student();
 	
-	Student(int studentId, std::string studentName, int salary, std::string stream);
+	Student(int, std::string, int, std::string);
 	
 	void accept();
 

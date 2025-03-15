@@ -1,7 +1,7 @@
 #ifndef ___TEMPLATEDAY11_H___
 #define ___TEMPLATEDAY11_H___
 
-template<class T>
+template<typename T>
 void Swap(T &x, T &y)
 {
      T temp = x;

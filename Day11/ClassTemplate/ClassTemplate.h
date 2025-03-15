@@ -9,7 +9,7 @@ class Array
 {
 	private:
 	T *p;
-	T size;
+	int size;
 
 	public:
 	Array(T size)
@@ -26,7 +26,7 @@ class Array
 			this->p[i]= x.p[i];
 		}
 	}
-	int& operator[](int index)
+	T& operator[](int index)
 	{
 		return p[index];
 	}
